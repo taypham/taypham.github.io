@@ -279,9 +279,6 @@ display:block;}
         height: 65px;
         padding: 0px 30px;
     }
-    .logo img{
-        height:35px;
-    }
     .menu{
         display:none;
         position:absolute;
@@ -382,9 +379,7 @@ display:block;}
     
 }
 @media(max-width:720px){
-    .profile{
-        display:none;
-    }
+    
     .main-text{
         width:70%;
         position:absolute;
