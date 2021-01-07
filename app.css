@@ -3,15 +3,15 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
     color: #5a5a5a;
     font-family: 'Open Sans';
   }
   
   
   /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
+  -------------------------------------------------- 
   
   /* Carousel base class */
   .carousel, .hero {
@@ -35,13 +35,22 @@ body {
     height: 32rem;
   }
   
+   /* Profile row
+  -------------------------------------------------- */
+  .container .row .col-md-3 {
+    margin-right: 1rem;
+  }
+  .container .row .col-md-8 {
+    font-size: small;
+  }
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
   
   /* Center align the text within the three columns below the carousel */
   .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     text-align: center;
   }
   .marketing h2 {
@@ -91,10 +100,10 @@ body {
   }
 
   .hero {
-    background: url("https://images.unsplash.com/photo-1543157145-f78c636d023d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+    background: url("");
     background-position: top left;
     background-size: cover;
-    height: 100vh;
+
   }
 
   .lead {
@@ -103,4 +112,13 @@ body {
 
   nav.navbar {
     background-color: #6d6875;
+   
+  }
+
+
+
+  .profile {
+    vertical-align: middle;
+    width: 200px;
+    border-radius: 3%;
   }
