@@ -4,8 +4,8 @@
 
 body {
     padding-top: 8rem;
-    padding-bottom: 5rem;
-    color: #5a5a5a;
+    padding-bottom: 8rem;
+    color: #161616;
     font-family: 'Open Sans';
   }
   
@@ -49,8 +49,8 @@ body {
   
   /* Center align the text within the three columns below the carousel */
   .marketing .col-lg-4 {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
     text-align: center;
   }
   .marketing h2 {
@@ -126,4 +126,16 @@ body {
   .project-heading{
     margin-top: 6rem;
     text-align: center;
+  }
+
+
+  .contact {
+    margin-top: 8rem;
+    padding-top: 3rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    border-top: 1px solid rgb(163, 163, 163);
   }
